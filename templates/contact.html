@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ text.contact_title }}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    
+    {% include 'navbar.html' %}
+
+    <div class="contact-wrapper">
+
+        <!-- LEFT PANEL -->
+        <div class="contact-info">
+            <div class="info-bg" style="background-image: url(/static/contact.jpg);"></div>
+
+            <div class="info-content">
+
+                <div class="info-block">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>{{ text.contact_address_title }}</h3>
+                    <p>{{ text.contact_address_detail }}</p>
+                </div>
+
+                <div class="info-block">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>{{ text.contact_talk_title }}</h3>
+                    <p class="green">{{ text.contact_phone }}</p>
+                </div>
+
+                <div class="info-block">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>{{ text.contact_support_title }}</h3>
+                    <p class="green">{{ text.contact_email }}</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="contact-form">
+            <h2>{{ text.contact_form_title }}</h2>
+
+            <form>
+
+                <label>{{ text.contact_name_label }}</label>
+                <div class="two-inputs">
+                    <input type="text" placeholder="{{ text.contact_first_name }}">
+                    <input type="text" placeholder="{{ text.contact_last_name }}">
+                </div>
+
+                <label>{{ text.contact_email_label }}</label>
+                <input type="email" placeholder="{{ text.contact_email_placeholder }}">
+
+                <label>{{ text.contact_phone_label }}</label>
+                <input type="text" placeholder="{{ text.contact_phone_placeholder }}">
+
+                <label>{{ text.contact_message_label }}</label>
+                <textarea placeholder="{{ text.contact_message_placeholder }}"></textarea>
+
+                <button type="submit">{{ text.contact_send_button }}</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

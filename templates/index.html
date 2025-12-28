@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindSense</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Header -->
+    {% include 'navbar.html' %}
+
+    <nav class="nav-links">
+        <a href="/{{ lang }}/start">{{ text.nav_app }}</a>
+        <a href="/{{ lang }}/about">{{ text.nav_about }}</a>
+        <a href="#">{{ text.nav_store }}</a>
+        <a href="#">{{ text.nav_promo }}</a>
+        <a href="/{{ lang }}/organizer">{{ text.nav_organizer }}</a>
+        <a href="/{{ lang }}/contact">{{ text.nav_contact }}</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay">
+            <h1>{{ text.hero_title }}</h1>
+            <div class="hero-buttons">
+                <a class="btn green" href="about">{{ text.hero_buy }}</a>
+                <a class="btn gray" href="about">{{ text.hero_about }}</a>
+                <a class="btn gold" href="about">{{ text.hero_promo }}</a>
+                <a class="btn brown" href="contact">{{ text.hero_contact }}</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+        <h2>{{ text.info_title }}</h2>
+        <p>{{ text.info_desc }}</p>
+    </section>
+
+    <!-- Two-Card Section -->
+    <section class="card-section">
+        <div class="card">
+            <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="Doctor expert">
+            <div class="card-overlay">
+                <h3>{{ text.card1_title }}</h3>
+                <a href="#" class="card-btn">{{ text.card1_btn }}</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='brain2.png') }}" alt="Global hospital">
+            <div class="card-overlay">
+                <h3>{{ text.card2_title }}</h3>
+                <a href="#" class="card-btn">{{ text.card2_btn }}</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommended Packages Section -->
+    <section class="packages">
+        <h2>{{ text.packages_title }}</h2>
+
+        <div class="package-container">
+
+            <!-- Package 1 -->
+            <div class="package-card">
+                <img src="{{ url_for('static', filename='brain2.png') }}" alt="EEG Package">
+                <div class="package-content">
+                    <h3>EEG</h3>
+                    <p>{{ text.pkg1_desc }}</p>
+
+                    <div class="promo-box">
+                        <span>{{ text.promo_code }}</span>
+                    </div>
+
+                    <div class="price-box">
+                        <span class="cost-label">{{ text.cost }} :</span>
+                        <span class="price">6,010 THB</span>
+                    </div>
+
+                    <div class="qty-box">
+                        <label for="qty1">{{ text.qty }} :</label>
+                        <input type="number" id="qty1" value="1" min="1">
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn green">🛒 {{ text.buy }}</button>
+                        <button class="btn gray">{{ text.add_to_cart }}</button>
+                    </div>
+
+                    <a href="#" class="details">{{ text.details }}</a>
+                </div>
+            </div>
+
+            <!-- Package 2 -->
+            <div class="package-card">
+                <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="EGG Package">
+                <div class="package-content">
+                    <h3>EGG</h3>
+                    <p>{{ text.pkg2_desc }}</p>
+
+                    <div class="price-box">
+                        <span class="cost-label">{{ text.cost }} :</span>
+                        <span class="price">16,900 THB</span>
+                    </div>
+
+                    <div class="qty-box">
+                        <label for="qty2">{{ text.qty }} :</label>
+                        <input type="number" id="qty2" value="1" min="1">
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn green">🛒 {{ text.buy }}</button>
+                        <button class="btn gray">{{ text.add_to_cart }}</button>
+                    </div>
+
+                    <a href="#" class="details">{{ text.details }}</a>
+                </div>
+            </div>
+
+            <!-- Package 3 -->
+            <div class="package-card">
+                <img src="{{ url_for('static', filename='brain2.png') }}" alt="Cancer Check">
+                <div class="package-content">
+                    <h3>Cancer Check</h3>
+                    <p>{{ text.pkg3_desc }}</p>
+
+                    <div class="price-box">
+                        <span class="cost-label">{{ text.cost }} :</span>
+                        <span class="price">6,969 THB</span>
+                    </div>
+
+                    <div class="qty-box">
+                        <label for="qty3">{{ text.qty }} :</label>
+                        <input type="number" id="qty3" value="1" min="1">
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn green">🛒 {{ text.buy }}</button>
+                        <button class="btn gray">{{ text.add_to_cart }}</button>
+                    </div>
+
+                    <a href="#" class="details">{{ text.details }}</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="view-all">
+            <a href="#" class="btn green">{{ text.view_all_packages }}</a>
+        </div>
+    </section>
+
+
+    <!-- Product Banner Section -->
+    <section class="product-banner">
+        <div class="product-container">
+            <img src="{{ url_for('static', filename='product.jpg') }}" alt="Product Banner">
+
+            <!-- Text + Button Overlay -->
+            <div class="product-overlay">
+                <h2 class="banner-title">{{ text.banner_title }}</h2>
+                <p class="banner-subtitle">{{ text.banner_sub }}</p>
+                <a href="start" class="banner-btn">{{ text.banner_start }}</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    {% include 'footer.html' %}
+
+</body>
+</html>

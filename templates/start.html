@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Reader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='start.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <button id="startBtn">Start</button>
+        <div id="loader" class="loader-container">
+            <div class="spinner"></div>
+            <p>Reading your mind<br>Stay Focus!</p>
+        </div>
+    </div>
+
+    <script>
+    const startBtn = document.getElementById('startBtn');
+    const loader = document.getElementById('loader');
+
+    const resultUrl = "{{ url_for('result', lang=lang) }}";
+
+    startBtn.addEventListener('click', () => {
+        startBtn.style.display = 'none';
+        loader.style.display = 'flex';
+        setTimeout(() => {
+            window.location.href = resultUrl;
+        }, 5000);
+    });
+    </script>
+</body>
+</html>
