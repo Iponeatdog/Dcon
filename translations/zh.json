@@ -1,0 +1,113 @@
+{
+  "nav_app": "应用",
+  "nav_about": "关于我们",
+  "nav_store": "商店",
+  "nav_promo": "优惠",
+  "nav_organizer": "组织者",
+  "nav_contact": "联系我们",
+
+  "hero_title": "MindSense",
+  "hero_buy": "购买我们的产品",
+  "hero_about": "关于我们",
+  "hero_promo": "优惠",
+  "hero_contact": "联系我们",
+
+  "info_title": "MindSense - 最佳心智感应产品",
+  "info_desc": "MindSense 是我们引以为傲的产品。问题在于你，还是你的“心”？",
+
+  "card1_title": "认识我们的专家医生",
+  "card1_btn": "查看专家",
+
+  "card2_title": "非常酷且已认证的项目",
+  "card2_btn": "查看奖项和认证",
+
+  "packages_title": "推荐套餐",
+
+  "pkg1_desc": "使用电极记录大脑电活动的医学测试。",
+  "pkg2_desc": "鸟类、爬行动物等动物产下的卵（生物细胞）",
+  "pkg3_desc": "Ask palm",
+
+  "view_all_packages": "查看所有套餐",
+  "promo_code": "使用代码 SIXSEVEN 即可减免 6,767 泰铢！",
+  "cost": "费用",
+  "qty": "数量",
+  "buy": "购买",
+  "add_to_cart": "加入购物车",
+  "details": "更多详情",
+
+  "banner_title": "立即试用我们的产品",
+  "banner_sub": "连接你的设备试用一下！",
+  "banner_start": "开始",
+
+  "footer_services": "服务",
+  "footer_ai_analysis": "AI 心理分析",
+  "footer_eeg_test": "脑电图（EEG）检测",
+  "footer_product_info": "产品信息",
+  "footer_faq": "常见问题",
+  "footer_support": "客户支持",
+
+  "footer_company": "公司",
+  "footer_about": "关于 MindSense",
+  "footer_team": "团队介绍",
+  "footer_careers": "加入我们",
+  "footer_press": "媒体与新闻",
+
+  "footer_research": "研究与文章",
+  "footer_brain_articles": "大脑健康文章",
+  "footer_neurotech": "神经科技",
+  "footer_updates": "产品更新",
+
+  "footer_contact": "联系我们",
+  "footer_email": "邮箱: support@mindsense.com",
+  "footer_phone": "电话: +66 02-000-0000",
+  "footer_location": "泰国 曼谷",
+
+  "footer_privacy": "隐私政策",
+  "footer_terms": "使用条款",
+  "footer_cookies": "Cookie 政策",
+
+  "footer_feedback": "如果您在使用网站时遇到问题，请告诉我们。",
+  "footer_copyright": "2025 MindSense. 版权所有",
+
+  "contact_title": "联系我们",
+  "contact_address_title": "地址",
+  "contact_address_detail": "Mada Center 8楼, 379 Hudson St, New York,\nNY 10018 美国",
+  "contact_talk_title": "电话联系",
+  "contact_phone": "+1 800 1236879",
+  "contact_support_title": "客服支持",
+  "contact_email": "contact@example.com",
+  "contact_form_title": "发送信息给我们",
+
+  "contact_name_label": "请填写您的姓名 *",
+  "contact_first_name": "名字",
+  "contact_last_name": "姓氏",
+
+  "contact_email_label": "请输入邮箱 *",
+  "contact_email_placeholder": "例如: example@email.com",
+
+  "contact_phone_label": "请输入电话号码",
+  "contact_phone_placeholder": "例如: +1 800 000000",
+
+  "contact_message_label": "消息 *",
+  "contact_message_placeholder": "写下您的信息",
+  "contact_send_button": "发送",
+
+  "about_hero_sub": "通过脑电波技术帮助人们理解并提高注意力",
+
+  "about_overview_title": "项目概述",
+  "about_overview_text": "本项目旨在帮助难以保持注意力的人群，包括患有 ADHD 的个人以及希望在日常任务中提高专注力的人。通过脑电（EEG）技术和深度学习，我们提供实时反馈，帮助用户了解自身心理状态并提升效率。",
+
+  "about_motivation_title": "动机",
+  "about_motivation_text": "许多学生和工作者因压力和干扰而难以集中注意力。我们致力于打造价格亲民、易于使用的自我管理解决方案。",
+
+  "about_technology_title": "技术",
+  "about_technology_text": "我们的系统使用单通道 EEG 传感器，并结合 CNN、LSTM 等深度学习模型，对脑电信号进行实时分析。",
+
+  "about_vision_title": "愿景",
+  "about_vision_text": "我们设想一个人人都能理解自身心理状态，并通过技术提升学习、专注力和幸福感的未来。",
+
+  "card_brain_title": "脑波分析",
+  "card_brain_btn": "了解更多",
+  "card_realtime_title": "实时反馈",
+  "card_realtime_btn": "查看功能"
+}

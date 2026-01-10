@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Bumrungrad International Hospital</title>
+    <title>About Our Project</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='footer.css') }}">
 </head>
 <body>
 
@@ -15,53 +16,52 @@
     <!-- Hero Section -->
     <section class="hero about-hero">
         <div class="overlay">
-            <h1>About our project</h1>
-            <p>เรามุ่งมั่นในการมอบการรักษาที่มีมาตรฐานระดับโลกแก่ผู้ป่วยจากทั่วทุกมุมโลก</p>
+            <h1>{{ text['hero_title'] }}</h1>
+            <p>{{ text['about_hero_sub'] }}</p>
         </div>
     </section>
 
     <!-- About Section -->
     <section class="about-section">
-        <h2>About our project</h2>
-        <p>
-            Our project want to do about mind. So we can read your mind!! :D
-        </p>
+        <h2>{{ text['about_overview_title'] }}</h2>
+        <p>{{ text['about_overview_text'] }}</p>
     </section>
 
     <!-- Vision Section -->
     <section class="vision-section">
         <div class="vision-card">
-            <h3>Our friends</h3>
-            <p>will give you the best experience</p>
+            <h3>{{ text['about_motivation_title'] }}</h3>
+            <p>{{ text['about_motivation_text'] }}</p>
         </div>
         <div class="vision-card">
-            <h3>Vision</h3>
-            <p>in marvel</p>
+            <h3>{{ text['about_technology_title'] }}</h3>
+            <p>{{ text['about_technology_text'] }}</p>
         </div>
         <div class="vision-card">
-            <h3>arigatou</h3>
-            <p>love live mind is our motto</p>
+            <h3>{{ text['about_vision_title'] }}</h3>
+            <p>{{ text['about_vision_text'] }}</p>
         </div>
     </section>
 
     <!-- Image Cards -->
     <section class="card-section">
         <div class="card">
-            <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="Doctor team">
+            <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="EEG Technology">
             <div class="card-overlay">
-                <h3>ทีมแพทย์มืออาชีพ</h3>
-                <a href="#" class="card-btn">เรียนรู้เพิ่มเติม</a>
+                <h3>{{ text['card_brain_title'] }}</h3>
+                <a href="#" class="card-btn">{{ text['card_brain_btn'] }}</a>
             </div>
         </div>
 
         <div class="card">
-            <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="Hospital">
+            <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="Mobile Application">
             <div class="card-overlay">
-                <h3>เทคโนโลยีทางการแพทย์ทันสมัย</h3>
-                <a href="#" class="card-btn">ดูนวัตกรรมของเรา</a>
+                <h3>{{ text['card_realtime_title'] }}</h3>
+                <a href="#" class="card-btn">{{ text['card_realtime_btn'] }}</a>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     {% include 'footer.html' %}

@@ -1,6 +1,6 @@
 <header class="navbar">
     <div class="nav-left">
-        <a href="/" class="logo">
+        <a href="/{{ lang }}/" class="logo">
             <img src="{{ url_for('static', filename='brain1.jpg') }}" alt="Logo">
             <span class="logo-text">MindSense</span>
         </a>
@@ -14,7 +14,7 @@
     </div>
 
     <div class="nav-right">
-        <a href="#" class="icon-btn">👤</a>
+        <a href="{{ url_for('organizer', lang=lang) }}" class="icon-btn">👤</a>
         <a href="#" class="icon-btn">🛒</a>
 
         <div class="language-selector">
@@ -22,40 +22,32 @@
             <span class="arrow">▾</span>
 
             <div class="lang-dropdown">
-                <a href="/TH" class="lang-option">TH - ภาษาไทย</a>
-                <a href="/EN" class="lang-option">EN - English</a>
-                <a href="/JP" class="lang-option">JP - 日本語</a>
-                <a href="/ZH" class="lang-option">ZH - 中文(简体)</a>
+                {% set path = request.path.split('/')[2:] | join('/') %}
+
+                <a href="/TH/{{ path }}" class="lang-option">TH - ภาษาไทย</a>
+                <a href="/EN/{{ path }}" class="lang-option">EN - English</a>
+                <a href="/JP/{{ path }}" class="lang-option">JP - 日本語</a>
+                <a href="/ZH/{{ path }}" class="lang-option">ZH - 中文(简体)</a>
             </div>
         </div>
     </div>
 </header>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
     const langSelector = document.querySelector(".language-selector");
     const dropdown = document.querySelector(".lang-dropdown");
 
-    // Toggle dropdown
     langSelector.addEventListener("click", function (e) {
         dropdown.style.display =
             dropdown.style.display === "flex" ? "none" : "flex";
         e.stopPropagation();
     });
 
-    // Close dropdown when clicking outside
     document.addEventListener("click", function () {
         dropdown.style.display = "none";
     });
-
-    // Replace selected language when choosing
-    document.querySelectorAll(".lang-option").forEach(option => {
-        option.addEventListener("click", function () {
-            document.querySelector(".selected-lang").textContent =
-                option.textContent.split(" - ")[0];  
-        });
-    });
-
 });
 </script>
+

@@ -1,0 +1,113 @@
+{
+  "nav_app": "App",
+  "nav_about": "About Us",
+  "nav_store": "Store",
+  "nav_promo": "Promotion",
+  "nav_organizer": "Organizer",
+  "nav_contact": "Contact Us",
+
+  "hero_title": "MindSense",
+  "hero_buy": "Buy Our Product",
+  "hero_about": "About Us",
+  "hero_promo": "Promotion",
+  "hero_contact": "Contact Us",
+
+  "info_title": "MindSense - The best mind sensing product",
+  "info_desc": "MindSense is the product we proud to present to you. Are you the problem? or It is your \"MIND\"",
+
+  "card1_title": "Meet Our Specialist Doctors",
+  "card1_btn": "View Our Experts",
+
+  "card2_title": "Very Cool and Certified project",
+  "card2_btn": "View Awards and Certifications",
+
+  "packages_title": "Recommended Package",
+
+  "pkg1_desc": "A medical test that records electrical activity in the brain using electrodes.",
+  "pkg2_desc": "the food (or biological cell) laid by birds, reptiles, and some other animals.",
+  "pkg3_desc": "Ask palm",
+
+  "view_all_packages": "View all packages",
+  "promo_code": "Use code SIXSEVEN to get 6,767 THB discount!!",
+  "cost": "Cost",
+  "qty": "Qty",
+  "buy": "Buy",
+  "add_to_cart": "Add to cart",
+  "details": "More details",
+
+  "banner_title": "TRY OUR PRODUCT NOW",
+  "banner_sub": "Connect to your product and try it out!",
+  "banner_start": "START",
+
+  "footer_services": "Services",
+  "footer_ai_analysis": "AI Mind Analysis",
+  "footer_eeg_test": "EEG Testing",
+  "footer_product_info": "Product Information",
+  "footer_faq": "FAQs",
+  "footer_support": "Customer Support",
+
+  "footer_company": "Company",
+  "footer_about": "About MindSense",
+  "footer_team": "Our Team",
+  "footer_careers": "Careers",
+  "footer_press": "Press & Media",
+
+  "footer_research": "Research & Articles",
+  "footer_brain_articles": "Brain Health Articles",
+  "footer_neurotech": "Neurotechnology",
+  "footer_updates": "Product Updates",
+
+  "footer_contact": "Contact",
+  "footer_email": "Email: support@mindsense.com",
+  "footer_phone": "Phone: +66 02-000-0000",
+  "footer_location": "Bangkok, Thailand",
+
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Use",
+  "footer_cookies": "Cookie Policy",
+
+  "footer_feedback": "If you experience any issues with our website, please let us know.",
+  "footer_copyright": "2025 MindSense. All rights reserved.",
+
+  "contact_title": "Contact Us",
+  "contact_address_title": "Address",
+  "contact_address_detail": "Mada Center 8th floor, 379 Hudson St, New York,\nNY 10018 US",
+  "contact_talk_title": "Let's Talk",
+  "contact_phone": "+1 800 1236879",
+  "contact_support_title": "General Support",
+  "contact_email": "contact@example.com",
+  "contact_form_title": "Send Us A Message",
+
+  "contact_name_label": "TELL US YOUR NAME *",
+  "contact_first_name": "First name",
+  "contact_last_name": "Last name",
+
+  "contact_email_label": "ENTER YOUR EMAIL *",
+  "contact_email_placeholder": "Eg. example@email.com",
+
+  "contact_phone_label": "ENTER PHONE NUMBER",
+  "contact_phone_placeholder": "Eg. +1 800 000000",
+
+  "contact_message_label": "MESSAGE *",
+  "contact_message_placeholder": "Write us a message",
+  "contact_send_button": "SEND MESSAGE",
+
+  "about_hero_sub": "Helping people understand and improve their concentration through brainwave technology",
+
+  "about_overview_title": "Project Overview",
+  "about_overview_text": "This project focuses on helping people who have difficulty maintaining concentration, including individuals with ADHD and anyone who wants to improve their focus during daily tasks. By using brainwave (EEG) technology and deep learning, we provide real-time feedback that helps users become more aware of their mental state and improve their productivity.",
+
+  "about_motivation_title": "Motivation",
+  "about_motivation_text": "Many students and workers struggle with focus due to stress and distractions. We aim to create an affordable and easy-to-use solution for self-management.",
+
+  "about_technology_title": "Technology",
+  "about_technology_text": "Our system uses a single-channel EEG sensor and deep learning models such as CNN and LSTM to analyze brainwave signals in real time.",
+
+  "about_vision_title": "Vision",
+  "about_vision_text": "We envision a future where everyone can understand their mental state and improve learning, focus, and well-being through technology.",
+
+  "card_brain_title": "Brainwave Analysis",
+  "card_brain_btn": "Learn More",
+  "card_realtime_title": "Real-Time Feedback",
+  "card_realtime_btn": "See Features"
+}

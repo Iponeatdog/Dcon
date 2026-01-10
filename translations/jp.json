@@ -1,0 +1,113 @@
+{
+  "nav_app": "アプリ",
+  "nav_about": "私たちについて",
+  "nav_store": "ストア",
+  "nav_promo": "プロモーション",
+  "nav_organizer": "制作者",
+  "nav_contact": "お問い合わせ",
+
+  "hero_title": "MindSense",
+  "hero_buy": "製品を購入",
+  "hero_about": "私たちについて",
+  "hero_promo": "プロモーション",
+  "hero_contact": "お問い合わせ",
+
+  "info_title": "MindSense - 最高のマインドセンシング製品",
+  "info_desc": "MindSense は私たちが誇る製品です。問題はあなたですか？それとも「心」ですか？",
+
+  "card1_title": "専門医をご紹介",
+  "card1_btn": "専門家を見る",
+
+  "card2_title": "非常にクールで認定済みのプロジェクト",
+  "card2_btn": "賞と認証を見る",
+
+  "packages_title": "おすすめパッケージ",
+
+  "pkg1_desc": "電極を使って脳の電気活動を記録する検査。",
+  "pkg2_desc": "鳥や爬虫類などが産む卵（生物学的な細胞）",
+  "pkg3_desc": "パームに聞く",
+
+  "view_all_packages": "すべてのパッケージを見る",
+  "promo_code": "コード SIXSEVEN で 6,767 THB 割引！",
+  "cost": "料金",
+  "qty": "数量",
+  "buy": "購入",
+  "add_to_cart": "カートに追加",
+  "details": "詳細はこちら",
+
+  "banner_title": "今すぐ製品を試す",
+  "banner_sub": "デバイスに接続して試してみましょう！",
+  "banner_start": "スタート",
+
+  "footer_services": "サービス",
+  "footer_ai_analysis": "AIマインド分析",
+  "footer_eeg_test": "EEG検査",
+  "footer_product_info": "製品情報",
+  "footer_faq": "よくある質問",
+  "footer_support": "カスタマーサポート",
+
+  "footer_company": "会社情報",
+  "footer_about": "MindSenseについて",
+  "footer_team": "チーム紹介",
+  "footer_careers": "採用情報",
+  "footer_press": "プレス＆メディア",
+
+  "footer_research": "研究と記事",
+  "footer_brain_articles": "脳ヘルス記事",
+  "footer_neurotech": "ニューロテック",
+  "footer_updates": "製品アップデート",
+
+  "footer_contact": "お問い合わせ",
+  "footer_email": "メール: support@mindsense.com",
+  "footer_phone": "電話: +66 02-000-0000",
+  "footer_location": "バンコク タイ",
+
+  "footer_privacy": "プライバシーポリシー",
+  "footer_terms": "利用規約",
+  "footer_cookies": "クッキーポリシー",
+
+  "footer_feedback": "ウェブサイトに問題がある場合はお知らせください。",
+  "footer_copyright": "2025 MindSense. All rights reserved.",
+
+  "contact_title": "お問い合わせ",
+  "contact_address_title": "住所",
+  "contact_address_detail": "Mada Center 8階, 379 Hudson St, New York,\nNY 10018 アメリカ",
+  "contact_talk_title": "お電話で",
+  "contact_phone": "+1 800 1236879",
+  "contact_support_title": "サポート",
+  "contact_email": "contact@example.com",
+  "contact_form_title": "メッセージを送る",
+
+  "contact_name_label": "お名前 *",
+  "contact_first_name": "名",
+  "contact_last_name": "姓",
+
+  "contact_email_label": "メールアドレス *",
+  "contact_email_placeholder": "例: example@email.com",
+
+  "contact_phone_label": "電話番号",
+  "contact_phone_placeholder": "例: +1 800 000000",
+
+  "contact_message_label": "メッセージ *",
+  "contact_message_placeholder": "メッセージを入力してください",
+  "contact_send_button": "送信",
+
+  "about_hero_sub": "脳波技術で集中力を理解し、向上させるお手伝いをします",
+
+  "about_overview_title": "プロジェクト概要",
+  "about_overview_text": "本プロジェクトは、集中力を維持することが難しい人々、特に ADHD を持つ方や日常の作業で集中力を高めたい人々を支援することを目的としています。脳波（EEG）技術とディープラーニングを活用し、リアルタイムのフィードバックによって生産性の向上を支援します。",
+
+  "about_motivation_title": "動機",
+  "about_motivation_text": "多くの学生や社会人がストレスや雑音により集中力を欠いています。私たちは、手頃で使いやすい自己管理ソリューションを目指しています。",
+
+  "about_technology_title": "技術",
+  "about_technology_text": "本システムは、シングルチャンネルEEGセンサーとCNNやLSTMなどの深層学習モデルを使用して、脳波信号をリアルタイムで解析します。",
+
+  "about_vision_title": "ビジョン",
+  "about_vision_text": "誰もが自分の精神状態を理解し、学習・集中・ウェルビーイングをテクノロジーで向上できる未来を描いています。",
+
+  "card_brain_title": "脳波解析",
+  "card_brain_btn": "詳しく見る",
+  "card_realtime_title": "リアルタイムフィードバック",
+  "card_realtime_btn": "機能を見る"
+}

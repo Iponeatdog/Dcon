@@ -1,0 +1,113 @@
+{
+  "nav_app": "แอปพลิเคชัน",
+  "nav_about": "เกี่ยวกับเรา",
+  "nav_store": "ร้านค้า",
+  "nav_promo": "โปรโมชัน",
+  "nav_organizer": "ผู้จัดทำ",
+  "nav_contact": "ติดต่อเรา",
+
+  "hero_title": "MindSense",
+  "hero_buy": "ซื้อผลิตภัณฑ์",
+  "hero_about": "เกี่ยวกับเรา",
+  "hero_promo": "โปรโมชัน",
+  "hero_contact": "ติดต่อเรา",
+
+  "info_title": "MindSense - ผลิตภัณฑ์ตรวจจับจิตใจที่ดีที่สุด",
+  "info_desc": "MindSense คือผลิตภัณฑ์ที่เราภูมิใจ ปัญหาอยู่ที่คุณ หรืออยู่ที่ \"จิตใจ\" ของคุณกันแน่?",
+
+  "card1_title": "พบแพทย์ผู้เชี่ยวชาญของเรา",
+  "card1_btn": "ดูผู้เชี่ยวชาญ",
+
+  "card2_title": "โครงการที่ยอดเยี่ยมและได้รับการรับรอง",
+  "card2_btn": "ดูรางวัลและการรับรอง",
+
+  "packages_title": "แพ็กเกจแนะนำ",
+
+  "pkg1_desc": "การตรวจทางการแพทย์เพื่อบันทึกสัญญาณไฟฟ้าของสมองด้วยอิเล็กโทรด",
+  "pkg2_desc": "ไข่ที่วางโดยสัตว์ เช่น นกหรือสัตว์เลื้อยคลาน (เซลล์ชีวภาพ)",
+  "pkg3_desc": "Ask palm",
+
+  "view_all_packages": "ดูแพ็กเกจทั้งหมด",
+  "promo_code": "ใช้โค้ด SIXSEVEN ลดทันที 6,767 บาท!",
+  "cost": "ราคา",
+  "qty": "จำนวน",
+  "buy": "ซื้อ",
+  "add_to_cart": "เพิ่มลงตะกร้า",
+  "details": "รายละเอียดเพิ่มเติม",
+
+  "banner_title": "ทดลองใช้ผลิตภัณฑ์ของเรา",
+  "banner_sub": "เชื่อมต่ออุปกรณ์แล้วลองใช้งานได้ทันที!",
+  "banner_start": "เริ่มต้น",
+
+  "footer_services": "บริการ",
+  "footer_ai_analysis": "การวิเคราะห์จิตใจด้วย AI",
+  "footer_eeg_test": "การตรวจ EEG",
+  "footer_product_info": "ข้อมูลผลิตภัณฑ์",
+  "footer_faq": "คำถามที่พบบ่อย",
+  "footer_support": "ฝ่ายสนับสนุนลูกค้า",
+
+  "footer_company": "บริษัท",
+  "footer_about": "เกี่ยวกับ MindSense",
+  "footer_team": "ทีมงาน",
+  "footer_careers": "ร่วมงานกับเรา",
+  "footer_press": "ข่าวสารและสื่อ",
+
+  "footer_research": "งานวิจัยและบทความ",
+  "footer_brain_articles": "บทความสุขภาพสมอง",
+  "footer_neurotech": "นิวโรเทคโนโลยี",
+  "footer_updates": "อัปเดตผลิตภัณฑ์",
+
+  "footer_contact": "ติดต่อเรา",
+  "footer_email": "อีเมล: support@mindsense.com",
+  "footer_phone": "โทรศัพท์: +66 02-000-0000",
+  "footer_location": "กรุงเทพฯ ประเทศไทย",
+
+  "footer_privacy": "นโยบายความเป็นส่วนตัว",
+  "footer_terms": "เงื่อนไขการใช้งาน",
+  "footer_cookies": "นโยบายคุกกี้",
+
+  "footer_feedback": "หากพบปัญหาในการใช้งานเว็บไซต์ กรุณาแจ้งให้เราทราบ",
+  "footer_copyright": "2025 MindSense. สงวนลิขสิทธิ์",
+
+  "contact_title": "ติดต่อเรา",
+  "contact_address_title": "ที่อยู่",
+  "contact_address_detail": "Mada Center ชั้น 8, 379 Hudson St, New York,\nNY 10018 สหรัฐอเมริกา",
+  "contact_talk_title": "โทรหาเรา",
+  "contact_phone": "+1 800 1236879",
+  "contact_support_title": "ฝ่ายสนับสนุน",
+  "contact_email": "contact@example.com",
+  "contact_form_title": "ส่งข้อความถึงเรา",
+
+  "contact_name_label": "ชื่อของคุณ *",
+  "contact_first_name": "ชื่อ",
+  "contact_last_name": "นามสกุล",
+
+  "contact_email_label": "อีเมล *",
+  "contact_email_placeholder": "เช่น example@email.com",
+
+  "contact_phone_label": "หมายเลขโทรศัพท์",
+  "contact_phone_placeholder": "เช่น +1 800 000000",
+
+  "contact_message_label": "ข้อความ *",
+  "contact_message_placeholder": "พิมพ์ข้อความของคุณ",
+  "contact_send_button": "ส่งข้อความ",
+
+  "about_hero_sub": "ช่วยให้เข้าใจและพัฒนาสมาธิด้วยเทคโนโลยีคลื่นสมอง",
+
+  "about_overview_title": "ภาพรวมโครงการ",
+  "about_overview_text": "โครงการนี้มีเป้าหมายเพื่อช่วยเหลือผู้ที่มีปัญหาในการรักษาสมาธิ โดยเฉพาะผู้ที่มีภาวะ ADHD และผู้ที่ต้องการเพิ่มประสิทธิภาพในการทำงานประจำวัน ผ่านการใช้เทคโนโลยี EEG และการเรียนรู้เชิงลึก เพื่อให้ผู้ใช้ได้รับข้อมูลย้อนกลับแบบเรียลไทม์",
+
+  "about_motivation_title": "แรงบันดาลใจ",
+  "about_motivation_text": "นักเรียนและคนทำงานจำนวนมากประสบปัญหาการขาดสมาธิจากความเครียดและสิ่งรบกวน เราต้องการสร้างโซลูชันที่เข้าถึงได้ง่ายและมีราคาที่เหมาะสม",
+
+  "about_technology_title": "เทคโนโลยี",
+  "about_technology_text": "ระบบใช้เซนเซอร์ EEG แบบช่องสัญญาณเดียวร่วมกับโมเดล Deep Learning เช่น CNN และ LSTM เพื่อวิเคราะห์สัญญาณสมองแบบเรียลไทม์",
+
+  "about_vision_title": "วิสัยทัศน์",
+  "about_vision_text": "เรามองเห็นอนาคตที่ทุกคนสามารถเข้าใจสภาพจิตใจของตนเอง และใช้เทคโนโลยีเพื่อพัฒนาการเรียนรู้ สมาธิ และคุณภาพชีวิต",
+
+  "card_brain_title": "การวิเคราะห์คลื่นสมอง",
+  "card_brain_btn": "ดูเพิ่มเติม",
+  "card_realtime_title": "การตอบสนองแบบเรียลไทม์",
+  "card_realtime_btn": "ดูฟีเจอร์"
+}
