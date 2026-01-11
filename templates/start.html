@@ -1,34 +1,19 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mind Reader</title>
+    <title>CSV File Upload</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='start.css') }}">
 </head>
 <body>
 
-    <div class="container">
-        <button id="startBtn">Start</button>
-        <div id="loader" class="loader-container">
-            <div class="spinner"></div>
-            <p>Reading your mind<br>Stay Focus!</p>
-        </div>
-    </div>
+<div class="upload-container">
+    <h2>Upload CSV File</h2>
 
-    <script>
-    const startBtn = document.getElementById('startBtn');
-    const loader = document.getElementById('loader');
+    <form action="#" method="post" enctype="multipart/form-data">
+        <input type="file" name="csv_file" accept=".csv" required>
+        <button type="submit">Upload</button>
+    </form>
+</div>
 
-    const resultUrl = "{{ url_for('result', lang=lang) }}";
-
-    startBtn.addEventListener('click', () => {
-        startBtn.style.display = 'none';
-        loader.style.display = 'flex';
-        setTimeout(() => {
-            window.location.href = resultUrl;
-        }, 5000);
-    });
-    </script>
 </body>
 </html>
